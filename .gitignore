@@ -5,3 +5,7 @@ redis/
 mysql/
 performance_schema/
 data/
+uts/sampleapp/db/data/ib_logfile0
+uts/sampleapp/db/data/ib_logfile1
+uts/sampleapp/db/data/ibdata1
+
