@@ -5,7 +5,13 @@ redis/
 mysql/
 performance_schema/
 data/
-uts/sampleapp/db/data/ib_logfile0
-uts/sampleapp/db/data/ib_logfile1
-uts/sampleapp/db/data/ibdata1
+sampleapp/db/data/
+
+sampleapp/db/data/ibdata1
+sampleapp/db/ib_logfile1
+sampleapp/db/data/ib_logfile0
+
+echo "sampleapp/db/data/ibdata1" >>.gitignore
+echo "sampleapp/db/data/ib_logfile1">>.gitignore
+echo "sampleapp/db/data/ib_logfile0">>.gitignore
 
