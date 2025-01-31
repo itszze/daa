@@ -15,3 +15,10 @@ echo "sampleapp/db/data/ibdata1" >>.gitignore
 echo "sampleapp/db/data/ib_logfile1">>.gitignore
 echo "sampleapp/db/data/ib_logfile0">>.gitignore
 
+mariadb/
+mongo/
+postgres/
+redis/
+mysql/
+performance_schema/
+data/
